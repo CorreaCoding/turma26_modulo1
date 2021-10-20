@@ -1,21 +1,20 @@
 programa {
 
      //Programa: Exercício 1 - ) João, homem de bem, comprou um microcomputador para controlar o rendimento diário de seu trabalho. 
-                 //Toda vez que ele traz um peso de tomate maior que o estabelecido pelo regulamento do estado de São Paulo (50 quilos) deve pagar um multa de R$ 4,00 por quilo excedente. 
-                 //João precisa que você faça um sistema que leia a variável P (peso de tomates) e verifique se há excesso. 
-                 //Se houver, gravar na variável E (Excesso) e na variável M o valor da multa que João deverá pagar. 
-                //Caso contrário mostrar tais variáveis com o conteúdo ZERO.
+     //                          Toda vez que ele traz um peso de tomate maior que o estabelecido pelo regulamento do estado de São
+     //                          Paulo (50 quilos) deve pagar um multa de R$ 4,00 por quilo excedente. João precisa que você faça 
+     //                          um sistema que leia a variável P (peso de tomates) e verifique se há excesso. Se houver, gravar
+     //                          na variável E (Excesso) e na variável M o valor da multa que João deverá pagar. Caso contrário
+     //                          mostrar tais variáveis com o conteúdo ZERO.
      //Autora: Amanda
      //Data: 24/06/2021
 	
 	funcao inicio() {
 
-     //Declaração de variáveis
 	real P, pesoIdeal = 50.0, M = 0.0
 	real E
 	
-     //Entrada de dados através do usuário
-	escreva ("Olá, digite o peso de seu item: ")
+	escreva ("Olá, digite o peso do seu item: ")
 	leia (P)
 
     // Laço Condicional - Se e Senao
@@ -36,14 +35,3 @@ programa {
 
 	}
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 1343; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
